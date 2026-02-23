@@ -23,39 +23,52 @@ Create and activate a virtual environment:
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+```
+---
 
-Install dependencies:
+## Install dependencies:
 
+```bash
 pip install -r requirements.txt
+```
+---
 
-Usage
+## Usage
 
 Run the simulator using:
 
+```bash
 python sim_cc.py
+```
 
 The script will execute the simulation and generate performance plots.
 
-Output
+## Output
 
 The simulator produces time-series plots for:
 
-Queueing delay versus time
+- Queueing delay versus time
 
-Aggregate goodput versus time
+- Aggregate goodput versus time
 
-Average congestion window versus time
+- Average congestion window versus time
 
 These outputs are used for experimental evaluation in the accompanying report.
 
-Reproducibility
+--- 
+
+## Reproducibility
 
 All experiments in the report were generated using this codebase and the configuration parameters provided in the source file. Users may modify simulation parameters to explore alternative network conditions.
 
-Author
+--- 
+
+## Author
 
 Aaron Fernandez
 
-License
+---
+
+## License
 
 This repository is provided for academic evaluation purposes.
